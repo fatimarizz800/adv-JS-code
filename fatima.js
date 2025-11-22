@@ -11,13 +11,13 @@
 // console.log(answer)
 
 // arrow function
-const name=()=>{
-    console.log("Hello!");
+// const name=()=>{
+//     console.log("Hello!");
     
-}
-name()
-name()
-name()
-name()
-name()
-name()
+// }
+// name()
+// name()
+// name()
+// name()
+// name()
+// name()

@@ -233,3 +233,12 @@
 // Haider()
 // Haider()
 // Haider()
+
+// DEFAULT PARAMETER
+
+// const NEWFUNC = (name = "HAIDER")=>{
+//     console.log(`Hello ${name}`)
+// }
+
+// NEWFUNC()
+// NEWFUNC("FATIMA")

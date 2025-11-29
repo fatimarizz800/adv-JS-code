@@ -214,10 +214,10 @@
 // FUNCTIONS
 
 // function Haider(){
-    
+
 // }
 // function Haider(){
-    
+
 // }
 // Haider()
 
@@ -242,3 +242,39 @@
 
 // NEWFUNC()
 // NEWFUNC("FATIMA")
+
+
+// Array Methods
+// i) Map
+// let numbers = [1,2,3,4,5,6,7,8,9,10]
+// let plusTwo = numbers.map((x)=>x+2)
+// console.log(plusTwo);
+
+// let numbers = [1,2,3,4,5,6,7,8,9,10]
+// let multiplyTwo = numbers.map((x)=>x*x)
+// console.log(multiplyTwo);
+
+// let students = [
+//     {
+//         name: "Haider",
+//         age: 50
+//     },
+//     {
+//         name: "Fatima",
+//         age: 40
+//     },
+//     {
+//         name: "Ibrahim",
+//         age: 50
+//     }
+// ]
+
+// let names = students.map((s)=>s.name)
+// let age = students.map((s)=>s.age)
+// console.log(names);
+// console.log(age);
+
+
+// let num =[1,2,3,4,5,6,7,8,9,10]
+// let checkEven = num.filter((x)=> x%2==0)
+// console.log(checkEven);

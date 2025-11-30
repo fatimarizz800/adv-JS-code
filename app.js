@@ -278,3 +278,9 @@
 // let num =[1,2,3,4,5,6,7,8,9,10]
 // let checkEven = num.filter((x)=> x%2==0)
 // console.log(checkEven);
+
+// let numbers = [1,2,3,4,5,6]
+// // numbers.forEach((num)=>console.log(num*2))
+
+// let answer = numbers.reduce((acc,currentVal)=>acc*currentVal)
+// console.log(answer);

@@ -45,7 +45,7 @@
 // let odd =num.filter((a)=>a % 2 != 0)
 // console.log(odd);
 
-// let mobileditels =document.getElementById("mobileditels")
+// let emp_data = document.getElementById("emp_data")
 
 // const mobiles = [
 //     { brand: "Apple", model: "iPhone 15", price: 999, ram: "6GB", storage: "128GB", battery: "3349mAh", camera: "48MP" },
@@ -79,12 +79,12 @@
 //     { brand: "Huawei", model: "Nova 11", price: 399, ram: "8GB", storage: "256GB", battery: "4500mAh", camera: "50MP" }
 // ]
 // let mobilebrands = mobiles.map((mobile) => {
-//     mobileditels.innerHTML +=`
+//     emp_data.innerHTML += `
 //     <p>brand name is ${mobile.brand}, model name is ${mobile.model}, price is ${mobile.price}, ram is ${mobile.ram}, 
 //     storage is ${mobile.storage}, battery is ${mobile.battery}, camera is ${mobile.camera}
 //     </p>
 //     `
-// })
+// }).filter((mob) => mob.price > 900)
 
 // let mobileexpensive =mobiles.filter((mobilehaha)=> mobilehaha.price >= 900)
 // console.log(mobileexpensive);

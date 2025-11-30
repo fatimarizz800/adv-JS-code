@@ -31,16 +31,16 @@
 // let yahya = "monkey"
 // let answer5 =yahya =="monkey"?"kk":"not k"
 // console.log(answer5);
-const  fatima =( nm ,age)=> {
- console.log(nm);
- console.log(age);
-}
-fatima("fatima",14)
-const percentage =(obtainedmarks,totalmarks)=>{
-let percentagesol=obtainedmarks/totalmarks*100
-console.log(percentagesol);
-}
-percentage(98,500)
+// const  fatima =( nm ,age)=> {
+//  console.log(nm);
+//  console.log(age);
+// }
+// fatima("fatima",14)
+// const percentage =(obtainedmarks,totalmarks)=>{
+// let percentagesol=obtainedmarks/totalmarks*100
+// console.log(percentagesol);
+// }
+// percentage(98,500)
 
 
 

@@ -111,6 +111,12 @@ const products = [
 // products.forEach((p)=> p.price += 50)
 // console.log(products);
 
+// let numbers =[1,22,3,4,5,6,7,8,9,10]
+// let sum = numbers.reduce((acc ,num)=>acc + num)
+// console.log(sum);
+
+// let max =numbers.reduce((max,curr)=>max >curr ?max :curr)
+// console.log(max);
 
 
 

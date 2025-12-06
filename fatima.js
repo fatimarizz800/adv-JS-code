@@ -13,7 +13,7 @@
 // arrow function
 // const name=()=>{
 //     console.log("Hello!");
-    
+
 // }
 // name()
 // name()
@@ -78,6 +78,39 @@
 // `
 // }
 // )
+
+// let num =[1,2,3,4,5,6,7,8,9,10]
+// num.forEach((val)=> console.log(val))
+
+
+const products = [
+    { name: "Laptop", price: 999 },
+    { name: "Headphones", price: 199 },
+    { name: "Keyboard", price: 49 },
+    { name: "Monitor", price: 299 },
+    { name: "Mouse", price: 29 }
+];
+
+// products.forEach((p)=> console.log(`${p.name}:${p.price}`)
+// )
+
+// products.forEach((p)=>{
+//     if (p.price >= 100) {
+// console.log(`${p.name} : ${p.price}`);
+
+//     }
+// })
+// let pro =[]
+// products.forEach((p)=>{
+//     if(p.price >= 100){
+//     pro.push(`${p.name} : ${p.price}`)
+//     }
+// })
+// console.log(pro);
+
+// products.forEach((p)=> p.price += 50)
+// console.log(products);
+
 
 
 

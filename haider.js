@@ -90,6 +90,39 @@
 // console.log(mobileexpensive);
 
 
+// let num =[1,2,3,4,5,6,7,8,9,10]
+// num.forEach((n)=>console.log(n))
+
+const electronicProducts = [
+  { name: "Smartphone", price: 699 },
+  { name: "Laptop", price: 1199 },
+  { name: "Wireless Earbuds", price: 129 },
+  { name: "Smartwatch", price: 249 },
+  { name: "Bluetooth Speaker", price: 89 },
+  { name: "4K TV", price: 999 },
+  { name: "Gaming Console", price: 499 },
+  { name: "Tablet", price: 349 },
+  { name: "External Hard Drive", price: 79 },
+  { name: "Digital Camera", price: 549 }
+];
+
+// let product =[]
+
+// electronicProducts.forEach((p)=>{
+// if(p.price > 300){
+//     product.push(`${p.name}:${p.price}`)
+// }
+
+
+// })
+// console.log(product);
+
+
+electronicProducts.forEach((p)=>p.price+=p.price*10/100)
+console.log(electronicProducts);
+
+
+
 
 
 

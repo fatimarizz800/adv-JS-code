@@ -118,10 +118,17 @@ const electronicProducts = [
 // console.log(product);
 
 
-electronicProducts.forEach((p)=>p.price+=p.price*10/100)
-console.log(electronicProducts);
+// electronicProducts.forEach((p)=>p.price+=p.price*10/100)
+// console.log(electronicProducts);
 
 
+// let arr = [1,2,33,4,5,6,7,8,9,10]
+
+// // // let sum = arr.reduce((acc,num)=>acc+num)
+// // // console.log(sum);
+
+// let max =arr.reduce((max,curr)=>max>curr?max:curr)
+// console.log(max);
 
 
 

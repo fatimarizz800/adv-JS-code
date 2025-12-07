@@ -119,6 +119,46 @@
 // console.log(max);
 
 
+// let num = [1, 2, 3, 4, 5]
+
+// let found = num.findIndex((n) => n > 3)
+// console.log(found);
+
+// let found1 = num.find((n) => n > 3)
+// console.log(found1);
+
+// Array of student objects
+// const students = [
+//     {
+//         id: 1,
+//         name: "Alice",
+//         age: 20,
+//         grade: "A"
+//     },
+//     {
+//         id: 2,
+//         name: "Bob",
+//         age: 22,
+//         grade: "B"
+//     },
+//     {
+//         id: 3,
+//         name: "Charlie",
+//         age: 19,
+//         grade: "A+"
+//     }
+// ];
+
+// console.log(students);
+
+
+// let found = students.find((s) => s.id == 3)
+// console.log(found);
+
+// let found2 = students.findIndex((s)=> s.name == "Bob")
+// console.log(found2);
+
+
 
 
 

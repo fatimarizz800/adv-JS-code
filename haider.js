@@ -169,15 +169,15 @@ const electronicProducts = [
 // let found = students.find((s)=>s.name == "haider")
 // console.log(found);
 
-let fruits =["mango","mango","apple","mango","banana","grapes","mango"]
+// let fruits =["mango","mango","apple","mango","banana","grapes","mango"]
 
-let fruit= fruits.reduce((acc,f)=>{
-if(f == "mango"){
-acc++
-}
-return acc
-},0)
-console.log(fruit);
+// let fruit= fruits.reduce((acc,f)=>{
+// if(f == "mango"){
+// acc++
+// }
+// return acc
+// },0)
+// console.log(fruit);
 
 
 

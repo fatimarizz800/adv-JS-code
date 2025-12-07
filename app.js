@@ -284,3 +284,42 @@
 
 // let answer = numbers.reduce((acc,currentVal)=>acc*currentVal)
 // console.log(answer);
+
+// // let num =[1,2,3,4,5,6,7,8,9,10]
+
+// // let found = num.findIndex((n)=>n>8)
+// // console.log(found);
+
+// // let found1 = num.find((n)=>n>8)
+// // console.log(found1);
+
+
+
+
+
+// // Array of student objects
+// const students = [
+//   {
+//     id: 1,
+//     name: "Alice",
+//     age: 20,
+//     grade: "A"
+//   },
+//   {
+//     id: 2,
+//     name: "Bob",
+//     age: 22,
+//     grade: "B"
+//   },
+//   {
+//     id: 3,
+//     name: "haider",
+//     age: 19,
+//     grade: "A+"
+//   }
+// ];
+
+// console.log(students);
+// let found = students.find((s)=>s.name == "haider")
+// console.log(found);
+

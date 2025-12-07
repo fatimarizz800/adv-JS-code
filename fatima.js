@@ -83,13 +83,13 @@
 // num.forEach((val)=> console.log(val))
 
 
-const products = [
-    { name: "Laptop", price: 999 },
-    { name: "Headphones", price: 199 },
-    { name: "Keyboard", price: 49 },
-    { name: "Monitor", price: 299 },
-    { name: "Mouse", price: 29 }
-];
+// const products = [
+//     { name: "Laptop", price: 999 },
+//     { name: "Headphones", price: 199 },
+//     { name: "Keyboard", price: 49 },
+//     { name: "Monitor", price: 299 },
+//     { name: "Mouse", price: 29 }
+// ];
 
 // products.forEach((p)=> console.log(`${p.name}:${p.price}`)
 // )

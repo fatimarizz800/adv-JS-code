@@ -159,6 +159,14 @@
 // console.log(found2);
 
 
+// let num =[1,2,1,3,1,4,1,5,1]
+// let count =num.reduce((acc ,n)=> {
+// if (n==1  ) {
+//    acc++ 
+// }
+// return acc
+// })
+// console.log(count);
 
 
 

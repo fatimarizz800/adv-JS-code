@@ -323,3 +323,15 @@
 // let found = students.find((s)=>s.name == "haider")
 // console.log(found);
 
+// API FETCH
+
+// const getPost = async ()=>{
+//     try {
+//         const response = await (await fetch("https://jsonplaceholder.typicode.com/posts")).json()
+//         console.log(response);
+//     } catch (err) {
+//         console.log(err);
+//     }
+// }
+
+// getPost()

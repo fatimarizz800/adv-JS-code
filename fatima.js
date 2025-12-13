@@ -168,6 +168,17 @@
 // })
 // console.log(count);
 
+// const getPhotos = async ()=>{
+//     try {
+//      let response =await(await fetch("https://jsonplaceholder.typicode.com/photos") ).json() 
+//      console.log(response);
+      
+//     } catch (error) {
+//       console.log(error);
+        
+//     }
+// }
+// getPhotos()
 
 
 

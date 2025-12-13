@@ -179,7 +179,15 @@ const electronicProducts = [
 // },0)
 // console.log(fruit);
 
+// const getComments=async()=>{
+// try{
+//   let responce =await(await fetch("https://jsonplaceholder.typicode.com/comments")).json()
+//   console.log(responce);
+  
+// }catch(err){
+// console.log(err);
 
+// }
+// }
 
-
-
+// getComments()

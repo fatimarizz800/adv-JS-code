@@ -335,3 +335,18 @@
 // }
 
 // getPost()
+
+// let promise = new Promise((resolve,reject)=>{
+//     let success = false
+//     if(success){
+//         resolve("YOU WON!")
+//     }else{
+//         reject("YOU LOSE!")
+//     }
+// })
+
+// promise.then((res)=>{
+//     console.log(res);
+// }).catch((rej)=>{
+//     console.log(rej);
+// })

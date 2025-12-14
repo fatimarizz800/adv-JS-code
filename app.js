@@ -350,3 +350,46 @@
 // }).catch((rej)=>{
 //     console.log(rej);
 // })
+
+// API_URL = "https://jsonplaceholder.typicode.com/todos"
+
+// const getTodos = () => {
+//     return new Promise((resolve,reject)=>{
+//         fetch(API_URL).then((res)=>{
+//             if(!res.ok){
+//                 reject("Failed to Fetch")
+//             }
+
+//             return res.json()
+//         }).then((data)=>{
+//             resolve(data)
+//         }).catch((err)=>{
+//             reject(err)
+//         })
+//     })
+// }
+
+// getTodos().then((todos)=>{
+//     console.log("TODO DATA",todos);
+// }).catch((err)=>{
+//     console.log(err);
+// })
+
+
+// let emp_data = document.getElementById("emp_data")
+// const getPost = async ()=>{
+//     try {
+//         const response = await (await fetch("https://jsonplaceholder.typicode.com/todos")).json()
+//         console.log(response)
+//         response.map((todo,ind)=>{
+//             emp_data.innerHTML += `
+//             <h1>${todo.title}</h1>
+//             <p>Completed ${todo.completed}</p>
+//             `
+//         })
+//     } catch (err) {
+//         console.log(err);
+//     }
+// }
+
+// getPost()

@@ -393,3 +393,24 @@
 // }
 
 // getPost()
+
+// let emp_data = document.getElementById("emp_data")
+// const getPost = async ()=>{
+//     try {
+//         const response = await (await fetch("https://fakestoreapi.com/products")).json()
+//         console.log(response)
+//         response.map((prod,ind)=>{
+//             emp_data.innerHTML += `
+//             <div style="border: 1px solid black; width: 400px; height: 400px;">
+//             <img height="100px" src="${prod.image}" />
+//             <h3>${prod.title}</h3>
+//             <p>${prod.description}</p>
+//             </div>
+//             `
+//         })
+//     } catch (err) {
+//         console.log(err);
+//     }
+// }
+
+// getPost()

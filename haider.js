@@ -191,3 +191,24 @@ const electronicProducts = [
 // }
 
 // getComments()
+
+// let prod_data  = document.getElementById("prod_data")
+// const getprod = async()=>{
+// try{
+//  let reponese =await(await fetch("https://fakestoreapi.com/products")).json()
+//  console.log(reponese)
+//  reponese.map((prod,ind)=>{
+//   prod_data.innerHTML +=`
+//   <div class="card">
+//   <img src=${prod.image} height="200px" width="160px"/>
+//   <h2>${prod.title}</h2>
+//   <p>${prod.description}</p>
+//   </div>
+  
+//   `
+//  })
+// }catch(err){
+// console.log(err)
+// }
+// }
+// getprod()

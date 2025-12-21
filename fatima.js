@@ -180,5 +180,19 @@
 // }
 // getPhotos()
 
+// const getProduct =async()=>{
+  
+//     try {
+//        let response =await (await fetch("https://fakestoreapi.com/products")).json()
+//        console.log(response);
+       
+
+//     } catch (error) {
+//       console.log(error);
+        
+//     }
+
+// }
+// getProduct()
 
 
